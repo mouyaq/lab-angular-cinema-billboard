@@ -3,7 +3,7 @@ import { Movie } from '../models/movie.model';
 import { movies } from '../data/movies.data';
 
 @Injectable()
-export class MovieServiceService {
+export class MoviesService {
   private movies: Array<Movie> = movies;
 
   getMovies(): Array<Movie> {
